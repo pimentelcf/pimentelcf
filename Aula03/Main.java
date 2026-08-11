@@ -6,6 +6,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculadora calculadora = new Calculadora();
+        
+        System.out.println("Entre com o primeiro número");
+        double n1 = scanner.nextDouble();
+   
+        System.out.println("Entre com o segundo número");
+        double n2 = scanner.nextDouble();
+
+        System.out.println("Resultado:" + (n1 + n2));
+    
     }
 
 }
